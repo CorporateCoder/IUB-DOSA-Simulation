@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Dosa_Recruiting_Officer.jnlp">
+  <information>
+    <title>Dosa_Recruiting_Officer</title>
+    <vendor>Ashfaque</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Dosa_Recruiting_Officer.jar" size="27143" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Dosa_Recruiting_Officer" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="mainpkg.MainApplicationClass"  name="Dosa_Recruiting_Officer" />
+  <update check="always"/>
+</jnlp>

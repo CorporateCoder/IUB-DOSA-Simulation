@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="mainpkg.LogisticsController">
+   <children>
+      <Label layoutX="56.0" layoutY="40.0" text="Catering Company" />
+      <Label layoutX="56.0" layoutY="83.0" text="Venue" />
+      <Label layoutX="56.0" layoutY="126.0" text="Musician" />
+      <TextField fx:id="cateringCompany" layoutX="167.0" layoutY="36.0" promptText="Name..." />
+      <TextField fx:id="venue" layoutX="167.0" layoutY="79.0" promptText="Venue..." />
+      <TextField fx:id="musician" layoutX="167.0" layoutY="122.0" promptText="Name..." />
+      <TextArea fx:id="outputTextArea" layoutX="14.0" layoutY="169.0" prefHeight="200.0" prefWidth="371.0" />
+      <Button fx:id="addToLogisticsList" layoutX="420.0" layoutY="131.0" mnemonicParsing="false" onAction="#btnAddToLogisticsListOnClick" text="Add to Logistics List" />
+      <Button fx:id="back" layoutX="508.0" layoutY="344.0" mnemonicParsing="false" onAction="#btnBackOnClick" text="Back" />
+      <Button fx:id="showList" layoutX="420.0" layoutY="169.0" mnemonicParsing="false" onAction="#btnShowListOnClick" text="Show List" />
+   </children>
+</AnchorPane>

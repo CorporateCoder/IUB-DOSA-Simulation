@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="mainpkg.UpcomingEventsController">
+   <children>
+      <TextField fx:id="eventName" layoutX="174.0" layoutY="36.0" promptText="Name..." />
+      <Label layoutX="44.0" layoutY="40.0" text="Event Name" />
+      <Label layoutX="44.0" layoutY="76.0" text="Event Date" />
+      <TextField fx:id="eventDate" layoutX="174.0" layoutY="72.0" promptText="Date" />
+      <Button fx:id="addToList" layoutX="47.0" layoutY="127.0" mnemonicParsing="false" onAction="#btnAddToListOnClick" text="Add Event To List" />
+      <TextArea fx:id="outputTextArea" layoutX="47.0" layoutY="167.0" prefHeight="200.0" prefWidth="353.0" />
+      <Button fx:id="showEventList" layoutX="195.0" layoutY="127.0" mnemonicParsing="false" onAction="#btnShowEventListOnClick" text="Show Event List" />
+      <Button fx:id="back" layoutX="444.0" layoutY="342.0" mnemonicParsing="false" onAction="#btnBackOnClick" text="Back" />
+   </children>
+</AnchorPane>
